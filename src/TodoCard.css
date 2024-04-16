@@ -1,0 +1,139 @@
+.todoCard {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.newCard {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.todoHeader{
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.newInput{
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.todoInput{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-right: 8px;
+}
+
+.todoStar{
+    height: 32px;
+    float: right;
+    display: block;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
+    
+.popup {
+    position: relative;
+}
+
+textarea {
+    height: auto;
+  }
+
+.todoText{
+    width: 100%;
+}
+
+.todoFooter{
+    padding-top: 0.5rem;
+    border-top: 2px solid black;
+}
+
+.popup {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+.show {
+    max-height: 200px;
+    transition: max-height 0.2s ease-out;
+}
+
+
+  .color-option {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 4px;
+  }
+
+  .grid-container {
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .active {
+    border: 2px solid black;
+  }
+
+  .title {
+    font-weight: bold;
+    color: black;
+  }
+
+  .text {
+    text-align: left;
+    color: black;
+  }
+
+  .icon {
+    height: 24px;
+    width: 24px;
+    margin: 4px;
+    cursor: pointer;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-btn {
+    margin-right: 8px;
+  }
+  
+  .right-btn {
+    margin-left: auto;
+  }
+
+  .checked {
+    color: gold;
+  }
+
+  .site-header { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .searchBar {
+    margin: auto;
+    width: 50%;
+  }
